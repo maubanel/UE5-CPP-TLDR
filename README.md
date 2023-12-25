@@ -29,4 +29,4 @@
 * Initialize FStrings with `FString Name = TEXT("This is a a string")` to ensure platform specific encoding
 
 ## CPP Coding Hints
-* Forward declare in the `.h` and include in the `.cpp` to speed up compile times and limit cross references
+* Forward declare in the `.h` and include in the `.cpp` to speed up compile times and limit cross reference errors
