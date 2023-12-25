@@ -1,10 +1,10 @@
 ## Common Specifiers
 * `UCLASS(Blueprintable)` - [Docs](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/GameplayArchitecture/Classes/Specifiers/)
-* ```UENUM(BlueprintType) enum class Foo : Uint8
+  ```UENUM(BlueprintType) enum class Foo : Uint8
   {
       None = 0 UMETA(DisplayName = "None")...
   }```
-* USTRUCT(BlueprintType) - [Docs](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/GameplayArchitecture/Structs/Specifiers/)
+* `USTRUCT(BlueprintType)` - [Docs](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/GameplayArchitecture/Structs/Specifiers/)
 * `UPROPERTY(VisibleAnywhere)`, `UPROPERTY(BlueprintReadOnly)`, `UPROPERTY(BlueprintReadWrite)` [Docs](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/GameplayArchitecture/Properties/Specifiers/)
 * UFUNCTION(Blueprintable)
 
