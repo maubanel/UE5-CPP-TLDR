@@ -4,6 +4,25 @@
 
     `UCLASS(Blueprintable)` 
 
+* USTRUCT Specifiers - [Docs](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/GameplayArchitecture/Structs/Specifiers/)
+  
+```
+    #include "Grid.generated.h"
+
+    USTRUCT(BlueprintType)
+    ustruct FGrid
+{
+    GENERATED BODY()
+
+    FORCELINE FGrid;
+    explicit FORCEINLINE FGrid(int32 Value);
+    explicit FORCE INLINE FGrid (In32 X, Int32 Y);
+
+    //... add properties here
+    //... No UFUNCTIONS allowed but can use non-blueprintable functions
+};
+```
+
 * UENUM Specifiers - [Docs](https://benui.ca/unreal/uenum-umeta/)
 ```
     UENUM(BlueprintType) enum class Foo : Uint8
@@ -12,9 +31,6 @@
     }
 ```
 
-* USTRUCT Specifiers - [Docs](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/GameplayArchitecture/Structs/Specifiers/)
-  
-    `USTRUCT(BlueprintType)`
 * UPROPERTY Specifiers - [Docs](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/GameplayArchitecture/Properties/Specifiers/)
   
     `UPROPERTY(VisibleAnywhere, Category = "Foo")`
