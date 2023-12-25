@@ -13,10 +13,14 @@
 ```
 
 * USTRUCT Specifiers - [Docs](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/GameplayArchitecture/Structs/Specifiers/)
+  
     `USTRUCT(BlueprintType)`
 * UPROPERTY Specifiers - [Docs](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/GameplayArchitecture/Properties/Specifiers/)
+  
     `UPROPERTY(VisibleAnywhere, Category = "Foo")`
+  
     `UPROPERTY(BlueprintReadOnly, Category = "Foo")`
+  
     `UPROPERTY(BlueprintReadWrite, Category = "Foo")` 
 
 ## Unreal Specific Coding Hints
