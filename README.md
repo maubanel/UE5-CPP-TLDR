@@ -26,8 +26,8 @@
 ## Unreal Specific Coding Hints
 
 * Use `TObjectPtr<ClassName>` intead of raw `*` pointers
-* Initialize FStrings with `FString Name = TEXT("This is a a string")` to ensure platform specific encoding
+* Initialize FStrings with `FString Name = TEXT("This is a a string");` to ensure platform specific encoding
 
 ## CPP Coding Hints
 * Forward declare in the `.h` and include in the `.cpp` to speed up compile times and limit cross reference errors
-* Initialize variables using the initilazation methode so use `int32 X{5};` instead of `int32 X = 5`
+* Initialize variables using the initilazation methode so use `int32 X{5};` instead of `int32 X = 5;`
