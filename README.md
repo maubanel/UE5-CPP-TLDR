@@ -5,12 +5,12 @@
     `UCLASS(Blueprintable)` 
 
 * UENUM Specifiers - [Docs](https://benui.ca/unreal/uenum-umeta/)
-```
-UENUM(BlueprintType) enum class Foo : Uint8
-{
-    None = 0 UMETA(DisplayName = "None")...
-}
-```
+    ```
+    UENUM(BlueprintType) enum class Foo : Uint8
+    {
+        None = 0 UMETA(DisplayName = "None")...
+    }
+    ```
 
 * USTRUCT Specifiers - [Docs](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/GameplayArchitecture/Structs/Specifiers/)
 * `USTRUCT(BlueprintType)` 
