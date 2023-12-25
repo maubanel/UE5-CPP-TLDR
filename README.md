@@ -1,6 +1,7 @@
 ## Common Specifiers
 
-UCLASS Specifier s- [Docs](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/GameplayArchitecture/Classes/Specifiers/)
+UCLASS Specifiers - [Docs](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/GameplayArchitecture/Classes/Specifiers/)
+
 `UCLASS(Blueprintable)` 
   
 ```
