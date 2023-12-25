@@ -12,9 +12,9 @@ UENUM(BlueprintType) enum class Foo : Uint8
 }
 ```
 
-* `USTRUCT(BlueprintType)` - [Docs](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/GameplayArchitecture/Structs/Specifiers/)
-* `UPROPERTY(VisibleAnywhere)`, `UPROPERTY(BlueprintReadOnly)`, `UPROPERTY(BlueprintReadWrite)` [Docs](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/GameplayArchitecture/Properties/Specifiers/)
-* UFUNCTION(Blueprintable)
+* USTRUCT Specifiers - [Docs](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/GameplayArchitecture/Structs/Specifiers/)
+* `USTRUCT(BlueprintType)` 
+* `UPROPERTY(VisibleAnywhere)`, `UPROPERTY(BlueprintReadOnly)`, `UPROPERTY(BlueprintReadWrite)` 
 
 ## Unreal Specific Coding Hints
 
