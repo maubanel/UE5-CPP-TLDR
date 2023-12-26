@@ -43,7 +43,7 @@
 
 * Use `TObjectPtr<ClassName>` intead of raw `*` pointers
 * Initialize FStrings with `FString Name = TEXT("This is a a string");` to ensure platform specific encoding
-* Use `check(pointer)` if you want the game to stop and assert on a null pointer (if that pointer is NOT supposed to be null).  Otherwise a non-breaking way is to use `if (IsValid(pointer)){//... do something}`
+* Use `check(pointer)` if you want the game to stop and assert on a null pointer (if that pointer is NOT supposed to be null).  Otherwise a non-breaking way is to use `if (IsValid(pointer)){//... do something}` - [Docs](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/ProgrammingWithCPP/Assertions/)
 
 ## CPP Coding Hints
 * Forward declare in the `.h` and include in the `.cpp` to speed up compile times and limit cross reference errors
