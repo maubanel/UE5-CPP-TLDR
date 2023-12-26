@@ -14,7 +14,7 @@
 {
     GENERATED BODY()
 
-    FORCELINE FGrid;
+    FORCELINE FGrid();
     explicit FORCEINLINE FGrid(int32 Value);
     explicit FORCE INLINE FGrid (In32 X, Int32 Y);
 
