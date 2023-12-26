@@ -10,7 +10,7 @@
     #include "Grid.generated.h"
 
     USTRUCT(BlueprintType)
-    ustruct FGrid
+    struct FGrid
 {
     GENERATED BODY()
 
