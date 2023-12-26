@@ -41,7 +41,7 @@
 
 ## Unreal Specific Coding Hints
 
-* Use `TObjectPtr<ClassName>` intead of raw `*` pointers
+* Use `TObjectPtr<ClassName>` intead of raw `*` pointers for UPROPERTIES
 * Initialize FStrings with `FString Name = TEXT("This is a a string");` to ensure platform specific encoding
 * Use `check(pointer)` if you want the game to stop and assert on a null pointer (if that pointer is NOT supposed to be null).  Otherwise a non-breaking way is to use `if (IsValid(pointer)){//... do something}` - [Docs](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/ProgrammingWithCPP/Assertions/)
 
