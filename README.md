@@ -49,3 +49,6 @@
 * Forward declare in the `.h` and include in the `.cpp` to speed up compile times and limit cross reference errors
 * Initialize variables using the initilazation methode so use `int32 X{5};` instead of `int32 X = 5;`
 * Use bitfields for booleans `uint8 bIsFoo:1` if there are lots of booleans in a class/struct but then you cannot initialize without c++ 20 (not supported in Unreal)
+
+## Debug Printing
+* `if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Yellow, TEXT("Switch to wireframe true!"));`
