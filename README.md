@@ -51,5 +51,5 @@
 * Use bitfields for booleans `uint8 bIsFoo:1` if there are lots of booleans in a class/struct but then you cannot initialize without c++ 20 (not supported in Unreal)
 
 ## Debug Printing
-`if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Yellow, TEXT("Write simple message here"));`
+`if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Yellow, TEXT("Write simple message here"));`<br>
 `if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Yellow, FString::Printf(TEXT("Write message with vars: %d"), IntegerVar));`
