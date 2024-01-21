@@ -52,4 +52,5 @@
 
 ## Debug Printing
 `if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Yellow, TEXT("Write simple message here"));`<br>
-`if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Yellow, FString::Printf(TEXT("Write message with vars: %d"), IntegerVar));`
+`if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Yellow, FString::Printf(TEXT("Write message with vars: %d"), IntegerVar));`<br>
+ `UE_LOG(LogTemp, Warning, TEXT("Text: %s"), *(ID.ToString()));`
