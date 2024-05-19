@@ -54,3 +54,8 @@
 `if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Yellow, TEXT("Write simple message here"));`<br>
 `if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Yellow, FString::Printf(TEXT("Write message with vars: %d"), IntegerVar));`<br>
  `UE_LOG(LogTemp, Warning, TEXT("Text: %s"), *(ID.ToString()));`
+
+ ##Error Messages
+ * Customize error category in project.h file in Source
+   ![twin h](https://github.com/maubanel/UE5-CPP-TLDR/assets/5504953/a03a91e5-eaa0-4c98-8705-ad7318d1a286)
+
