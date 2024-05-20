@@ -37,7 +37,10 @@
   
     `UPROPERTY(BlueprintReadOnly, Category = "Foo")`
   
-    `UPROPERTY(BlueprintReadWrite, Category = "Foo")` 
+    `UPROPERTY(BlueprintReadWrite, Category = "Foo")`
+
+## Enumerators
+* Access Display Name of UENUM in Unreal: `UEnum::GetValueAsString(BuildingName);`
 
 ## Unreal Specific Coding Hints
 
