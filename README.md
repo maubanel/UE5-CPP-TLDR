@@ -31,6 +31,13 @@
     }
 ```
 
+* UFUCNTION Specifiers - [Docs](https://benui.ca/unreal/ufunction/)
+```
+    UFUNCTION(BLueprintCallable, Category = "Cat")
+    // Change a reference in blueprint to an input pin and maintain writability
+      UFUNCTION(BLueprintCallable, Category = "Cat")
+      static void Foo(UPARAM(ref) AActor& Actor);
+```
 * UPROPERTY Specifiers - [Docs](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/GameplayArchitecture/Properties/Specifiers/)
   
     `UPROPERTY(VisibleAnywhere, Category = "Foo")`
