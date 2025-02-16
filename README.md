@@ -67,7 +67,7 @@
 
 ## TArrays
 * `TArray FSTring> Foo;`
-*  Loop through entire array: `for (auto Foo : Foos);
+*  Loop through entire array: `for (auto Foo : Foos);`
 
 ## Casts
-*  `APawn* MyPawn = Cast<APawn>(MyActor);``
+*  `APawn* MyPawn = Cast<APawn>(MyActor);`
