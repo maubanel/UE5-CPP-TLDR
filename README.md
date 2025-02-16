@@ -64,3 +64,7 @@
 
 ## Links
 * Parsing JSON: https://gist.github.com/hanzochang/07eba255ce0d1695582a92e98e973200
+
+## TArrays
+* `TArray FSTring> Foo;`
+*  
