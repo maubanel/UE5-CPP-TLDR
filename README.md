@@ -78,3 +78,6 @@
 
 ## Casts
 *  `APawn* MyPawn = Cast<APawn>(MyActor);`
+
+## Custom Log Category
+* Project name.cpp or plubin name.cpp: `` 
