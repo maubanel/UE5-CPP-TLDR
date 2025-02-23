@@ -80,4 +80,5 @@
 *  `APawn* MyPawn = Cast<APawn>(MyActor);`
 
 ## Custom Log Category
-* Project name.cpp or plubin name.cpp: `` 
+* Project name.cpp or plugin name.cpp (in Source | Private) at the bottom after #undef: `IMPLEMENT_MODULE(FNameOfModule, NameOfUELog)` (FNameOfModule is the name of the module and NameOfUELog is the log name you want to give and needs to be the same as in the name.h file.
+* Project name.h or plugin name.h (in Source | Plublic)  at the top after #includes: `DECLARE_LOG_CATEGORY_EXTERN(NameOfUELog, Log, All)` (NameOfUELog is the log name you want to give)
