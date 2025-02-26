@@ -31,7 +31,7 @@
     }
 ```
 
-* UFUCNTION Specifiers - [Docs](https://benui.ca/unreal/ufunction/)
+* UFUNCTION Specifiers - [Docs](https://benui.ca/unreal/ufunction/)
 ```
     UFUNCTION(BLueprintCallable, Category = "Cat")
     // Change a reference in blueprint to an input pin and maintain writability
