@@ -79,6 +79,10 @@
 ## Casts
 *  `APawn* MyPawn = Cast<APawn>(MyActor);`
 
+  ## Delay
+  * There is no delay equivalent, to do it you need to:
+  * `  GetWorld()->GetTimerManager().SetTimer(DelayTimerHandle, this, &AMyActor::OnDelayComplete, DelayDuration, false);`
+
 ## Custom Log Category
 * Project name.cpp or plugin name.cpp (in Source | Private) at the bottom after #undef: `DEFINE_LOG_CATEGORY(NameOfUELog);` (NameOfUELog is the log name you want to give and needs to be the same as in the name.h file.
 * Project name.h or plugin name.h (in Source | Plublic)  at the top after #includes: `DECLARE_LOG_CATEGORY_EXTERN(NameOfUELog, Log, All)` (NameOfUELog is the log name you want to give)
