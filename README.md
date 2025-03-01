@@ -82,6 +82,7 @@
   ## Delay
   * There is no delay equivalent, to do it you need to:
   * `  GetWorld()->GetTimerManager().SetTimer(DelayTimerHandle, this, &AMyActor::OnDelayComplete, DelayDuration, false);`
+  * In .h ` FTimerHandle DelayTimerHandle;`
 
 ## Custom Log Category
 * Project name.cpp or plugin name.cpp (in Source | Private) at the bottom after #undef: `DEFINE_LOG_CATEGORY(NameOfUELog);` (NameOfUELog is the log name you want to give and needs to be the same as in the name.h file.
